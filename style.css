@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bagel+Fat+One&display=swap');
+
+*{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Bagel Fat One', cursive;
+}
+
+html,body{
+    height: 100%;
+    width: 100;
+    background-color: #E5C279;
+}
+#gameText{
+    text-align: center;
+    font-size: 40px;
+    color: ;
+
+}
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap : 0.5rem;
+    width: 300px;
+    margin: 20px auto;
+  
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color : transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    cursor: pointer;
+    box-shadow:rgba(0, 0, 0, 0.7) 0px 2px 4px, rgba(0, 0, 0, 0.8) 0px 7px 13px -3px, rgba(0, 0, 0, 0.5) 0px -3px 0px inset;;
+  }
+
+  
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+  #current-player{
+    text-align: center;
+  }
+  
